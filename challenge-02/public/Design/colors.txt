@@ -1,0 +1,9 @@
+Dark Background: #1A1A1A (Near Black)
+
+Green Accents: #00FF00 (Lime Green)
+
+White Text: #FFFFFF (White)
+
+Light Grey Filters: #D3D3D3 (Light Grey)
+
+Highlight Color: #FFD700 (Gold)
