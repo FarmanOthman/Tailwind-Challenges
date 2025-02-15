@@ -37,31 +37,12 @@
 
 ```sh
 # Clone the repository
-git clone <your-repo-url>
+git clone <repo-url>
 cd tailwind-challenges
-
+```
+```sh
 # Install dependencies
 npm install
-
-# Navigate to a challenge folder and create a new Vite project
-cd challenge-01
-npm create vite@latest . -- --template react
-
-# Install Tailwind CSS
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-```
-
-### Configure Tailwind
-Edit `tailwind.config.js` and update the content paths:
-```js
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
 ```
 
 ```sh
