@@ -1,12 +1,11 @@
 import Nav from "./Nav"
+import Hero from "./Hero"
 
 const Home = () => {
   return (
     <div>
       <Nav />
-      <div className="flex justify-center items-center h-screen">
-        <h1 className="text-4xl">Home</h1>
-      </div>
+      <Hero />
     </div>
   )
 }
