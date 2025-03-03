@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="flex justify-center items-center h-screen gap-x-8 relative flex-col md:flex-row">
       {/* Blue Section */}
-      <div className="absolute bottom-0 right-0 w-full md:w-1/2 h-[300px] bg-blue-600 rounded-tl-full rounded-bl-full hidden md:block"></div>
+      <div className="absolute bottom-0 right-0 w-full md:w-1/2 h-[18.75rem] bg-blue-600 rounded-tl-full rounded-bl-full hidden md:block"></div>
 
       {/* Content */}
       <div className="flex flex-col justify-center items-center gap-6 md:ml-20 max-w-[80vw] md:max-w-[50vw]">

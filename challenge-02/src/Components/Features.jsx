@@ -15,7 +15,7 @@ const Feature = () => {
       {/* Main Feature Content */}
       <div className="relative flex flex-col-reverse md:flex-row items-center justify-center px-6 md:px-20 py-12 md:py-24">
         {/* Blue Section */}
-        <div className="absolute bottom-0 left-0 w-full lg:w-1/3 h-[280px] bg-blue-600 rounded-tr-full rounded-br-full hidden md:block"></div>
+        <div className="absolute bottom-0 left-0 w-full md:w-1/3 h-[17.5rem] md:h-[25rem] bg-blue-600 rounded-tr-full rounded-br-full hidden md:block md:rounded-tr-[50%] md:rounded-br-[50%]"></div>
 
         {/* Image */}
         <img
