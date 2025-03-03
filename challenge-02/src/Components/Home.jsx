@@ -3,6 +3,7 @@ import Hero from "./Hero"
 import Feature from "./Features"
 import DownloadTheExtension from "./DownloadTheExtesnion"
 import QAsection from "./QAsection"
+import Footer from "./Footer"
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Feature />
       <DownloadTheExtension />
       <QAsection />
+      <Footer />
 
     </div>
   )

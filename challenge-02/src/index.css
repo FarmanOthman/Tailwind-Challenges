@@ -6,6 +6,24 @@
   @apply bg-red-500 text-white border-red-500 shadow-md;
 }
 
+.active_footer {
+  @apply text-blue-500; /* Highlight active link with blue */
+}
+
+.nav-link_footer {
+  @apply font-semibold text-lg tracking-wide p-2 rounded-md px-6 
+         transition-all duration-300 ease-in-out 
+         border-2 border-transparent hover:border-blue-600 
+         hover:bg-blue-400 hover:text-white 
+         hover:shadow-md hover:scale-105;
+}
+
+/* Improve transition and hover effects */
+.nav-link_footer:hover {
+  @apply scale-105 bg-blue-600 text-white;
+  transition: all 0.3s ease;
+}
+
 .nav-link {
   @apply font-semibold text-lg tracking-wide p-2 rounded-md px-6 
          transition-all duration-300 ease-in-out 
