@@ -2,6 +2,7 @@ import Nav from "./Nav"
 import Hero from "./Hero"
 import Feature from "./Features"
 import DownloadTheExtension from "./DownloadTheExtesnion"
+import QAsection from "./QAsection"
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Feature />
       <DownloadTheExtension />
+      <QAsection />
 
     </div>
   )
