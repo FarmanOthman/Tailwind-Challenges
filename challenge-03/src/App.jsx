@@ -1,14 +1,17 @@
 
 import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainPage from "./Components/MainPage";
+
 
 function App() {
-
-
   return (
-    <>
-      <h1 className='text-4xl text-red-600 '>Hello</h1>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
