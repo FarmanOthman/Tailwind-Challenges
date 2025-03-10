@@ -4,7 +4,7 @@ import downArrow from '../assets/Images/arrow down.svg'
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-4">
+    <nav className="flex justify-between items-center">
       {/* Left Section (Menu) */}
       <div className="flex pentagonLeft items-center backdrop-blur-sm bg-white/10 rounded-l-lg gap-16 py-6 px-[4.5rem]">
         <div>
