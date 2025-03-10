@@ -6,7 +6,7 @@ function MainPage() {
     className="w-full h-screen bg-cover bg-center"
     style={{ backgroundImage: `url(${bgImage})` }}
   >
-    <div className="relative z-10 text-white text-center pt-48">
+    <div className="relative z-10 text-white text-center">
       <Navbar />
     </div>
   </div>
