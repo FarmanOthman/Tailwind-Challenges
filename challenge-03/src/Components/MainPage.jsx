@@ -1,5 +1,6 @@
 import bgImage from '../assets/Images/astronaut-with-spacesuit-practicing-snowboarding-moon 1.png'
 import Navbar from './Navbar'
+import Hero from './Hero'
 function MainPage() {
   return (
     <div
@@ -8,6 +9,7 @@ function MainPage() {
   >
     <div className="relative z-10 text-white text-center">
       <Navbar />
+      <Hero />
     </div>
   </div>
   
