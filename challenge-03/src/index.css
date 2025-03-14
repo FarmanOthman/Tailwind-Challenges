@@ -1,0 +1,62 @@
+.pentagonLeft {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 25%, 90% 100%, 0% 100%);
+}
+
+.pentagonRight {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 25%);
+}
+
+
+/* Add a dark gradient overlay to the background image */
+.hero-container {
+  position: relative;
+}
+
+.hero-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+
+/* Ensure text is above the overlay */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Enhance button hover effect */
+.enroll-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* Improve search bar contrast */
+.search-bar {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.search-bar::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Smooth transition for menu */
+.nav-menu {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Slide-in effect for mobile menu */
+.nav-menu.open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nav-menu.closed {
+  opacity: 0;
+  transform: translateX(-100%);
+}
