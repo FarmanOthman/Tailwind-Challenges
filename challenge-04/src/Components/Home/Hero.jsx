@@ -24,9 +24,9 @@ function Hero() {
               sell they west hard for the.
             </p>
             <div className='flex justify-center md:justify-start items-center gap-4 mt-6'>
-              <button className='bg-light-orange text-white px-6 py-3 rounded-md'>Find out more</button>
+              <button className='hover:bg-orange-600 bg-light-orange text-white px-6 py-3 rounded-md transition duration-300 cursor-pointer ease-in-out '>Find out more</button>
               <div className='flex items-center gap-2'>
-                <img src={playIcon} alt="" className='md:w-[30px] max-sm:mt-[30px] sm:mt-[30px] lg:w-[110px]'  />
+                <img src={playIcon} alt="" className='hover:cursor-pointer md:w-[30px] max-sm:mt-[30px] sm:mt-[30px] lg:w-[110px]'  />
                 <p className='text-gray-400'>Play Demo</p>
               </div>
             </div>

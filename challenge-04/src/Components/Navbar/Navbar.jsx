@@ -80,13 +80,22 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
-          <li className="cursor-pointer" onClick={() => navigate("/Hotels")}>
+          <li
+            className="cursor-pointer hover:text-gray-600 rounded transition duration-300 ease-in-out"
+            onClick={() => navigate("/Hotels")}
+          >
             Hotels
           </li>
-          <li className="cursor-pointer" onClick={() => navigate("/Flight")}>
+          <li
+            className="cursor-pointer hover:text-gray-600 rounded transition duration-300 ease-in-out"
+            onClick={() => navigate("/Flight")}
+          >
             Flight
           </li>
-          <li className="cursor-pointer" onClick={() => navigate("/Booking")}>
+          <li
+            className="cursor-pointer hover:text-gray-600 rounded transition duration-300 ease-in-out"
+            onClick={() => navigate("/Booking")}
+          >
             Booking
           </li>
         </ul>
