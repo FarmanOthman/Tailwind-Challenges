@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="text-black p-4 bg-white">
+    <nav className="text-black p-4 bg-transparent">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <img
@@ -80,9 +80,6 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
-          <li className="cursor-pointer" onClick={() => navigate("/Destination")}>
-            Destination
-          </li>
           <li className="cursor-pointer" onClick={() => navigate("/Hotels")}>
             Hotels
           </li>
@@ -95,7 +92,7 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Buttons */}
-        <div className="hidden md:flex items-center space-x-6 md:space-x-4">
+        <div className="hidden lg:-ml-20 md:flex items-center space-x-6 md:space-x-4">
           <button
             className="text-black hover:bg-gray-200 px-4 py-1 rounded transition duration-300 ease-in-out"
             onClick={() => navigate("/login")}
@@ -117,14 +114,6 @@ const Navbar = () => {
         <div className="md:hidden bg-white shadow-lg rounded-lg mt-5 mx-4 py-4">
           {/* Mobile Menu Items */}
           <ul className="space-y-3 px-4">
-            <li>
-              <button
-                className="w-full text-left text-gray-700 active:scale-95 active:bg-gray-100 px-4 py-2 rounded-lg transition-transform duration-200 ease-in-out"
-                onClick={() => navigate("/Destination")}
-              >
-                Destination
-              </button>
-            </li>
             <li>
               <button
                 className="w-full text-left text-gray-700 active:scale-95 active:bg-gray-100 px-4 py-2 rounded-lg transition-transform duration-200 ease-in-out"
