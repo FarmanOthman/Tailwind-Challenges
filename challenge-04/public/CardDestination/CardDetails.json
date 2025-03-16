@@ -4,20 +4,20 @@
     "title": "Rome, Italty",
     "price": "$5.42K",
     "trip": "10 days",
-    "imageUrl": "/CardDestinations/Rectangle 13.png"
+    "imageUrl": "/CardDestination/Rectangle 13.png"
   },
   {
     "id": 2,
     "title": "London, UK",
     "price": "$4.42K",
     "trip": "7 days",
-    "imageUrl": "/CardDestinations/Rectangle 14.png"
+    "imageUrl": "/CardDestination/Rectangle 14.png"
   },
   {
     "id": 3,
     "title": "All of Europe",
     "price": "$10.42K",
     "trip": "28 days",
-    "imageUrl": "/CardDestinations/Rectangle 15.png"
+    "imageUrl": "/CardDestination/Rectangle 15.png"
   }
 ]
