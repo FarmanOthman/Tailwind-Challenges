@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Calculated Weather",
+    "description": "Accurate weather updates based on current conditions.",
+    "imageUrl": "/CardCategory/Setilaite.svg"
+  },
+  {
+    "id": 2,
+    "title": "Best Flight",
+    "description": "Find the perfect flight effortlessly.",
+    "imageUrl": "/CardCategory/Plain.svg"
+  },
+  {
+    "id": 3,
+    "title": "Local Events",
+    "description": "Stay updated on nearby events.",
+    "imageUrl": "/CardCategory/Mic.svg"
+  },
+  {
+    "id": 4,
+    "title": "Customization",
+    "description": "Tailored options for your preferences.",
+    "imageUrl": "/CardCategory/Setting.svg"
+  }
+]
