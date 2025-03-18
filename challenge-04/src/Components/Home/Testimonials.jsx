@@ -15,6 +15,7 @@ function Testimonials() {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     timer = setInterval(() => {
       changeSlide((currentIndex + 1) % testimonials.length);
     }, 5000);
@@ -71,7 +72,7 @@ function Testimonials() {
           <p className="text-gray-400 poppins-regular">{location}</p>
         </div>
       </div>
-      <div className="flex flex-col gap-4 max-md:hidden"> {/* Controller for Carousel */}
+      <div className="flex flex-col gap-4 max-md:"> {/* Controller for Carousel */}
         <FaChevronUp className="h-6 w-6 sm:h-8 sm:w-8 text-gray-500 cursor-pointer" onClick={handlePrev} />
         <FaChevronDown className="h-6 w-6 sm:h-8 sm:w-8 text-gray-500 cursor-pointer" onClick={handleNext} />
       </div>
