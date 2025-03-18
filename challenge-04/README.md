@@ -1,98 +1,129 @@
-# 💰 Challenge 04: Pricing Table
+# ✈️ Challenge 04: Travel Website
 
-## 🎯 Challenge Overview
-Build a modern, responsive pricing table that effectively communicates different plan tiers and their features using Tailwind CSS.
+## Project Overview
+A modern travel website featuring destinations, testimonials, and travel categories. Built with React and Tailwind CSS, focusing on beautiful UI and smooth user experience.
 
-## 🎨 Features
-- **Responsive Grid:** Adapts to all screen sizes
-- **Popular Plan Highlight:** Featured tier emphasis
-- **Interactive Elements:** Hover states and CTAs
-- **Feature Comparison:** Clear feature differentiation
-- **Monthly/Annual Toggle:** Price switching functionality
+## 🛠️ Features Implemented
+- **Hero Section:** Engaging travel-themed hero with animations
+- **Destinations:** Featured travel locations showcase
+- **Categories:** Travel category exploration
+- **Easy & Fast:** Feature highlights section
+- **Testimonials:** Customer reviews and feedback
+- **Newsletter:** Email subscription component
+- **Sponsor Section:** Partner showcase
+- **Responsive Design:** Mobile-first approach
 
-## 🛠️ Technologies Used
-- React + Vite
-- Tailwind CSS
-- React Icons
-- Framer Motion (for subtle animations)
-
-## 📸 Preview
-![Desktop View](./public/pricing-desktop.png)
-![Mobile View](./public/pricing-mobile.png)
-
-## 🔑 Key Learning Points
-- Grid system implementation
-- Price toggle functionality
-- Feature comparison layout
-- Visual hierarchy
-- Responsive design patterns
-
-## 💻 Code Highlights
+## 💻 Technical Implementation
 ```jsx
-// Pricing card component with Tailwind
-const pricingClasses = {
-  card: "relative p-6 bg-white rounded-2xl shadow-xl",
-  popular: "before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2",
-  features: "space-y-4 mt-8",
-  cta: "w-full py-3 mt-8 rounded-lg font-semibold transition-colors duration-200"
-};
+// Hero Section Example
+<div className='h-screen relative'>
+  <img src={shape} alt="" className='absolute z-[-10] top-[-9rem] right-0' />
+  <div className='flex flex-col md:flex-row justify-evenly items-center h-full'>
+    <div className='text-center md:text-left'>
+      <h3 className='text-lg md:text-xl font-bold text-red-400'>
+        Best Destinations around the world
+      </h3>
+      <h1 className='font-volkhov mt-6 md:mt-8'>
+        <span className='text-5xl md:text-8xl block'>Travel, enjoy</span>
+        <span className='text-5xl md:text-8xl block'>and live a new</span>
+        <span className='text-5xl md:text-8xl block'>and full life</span>
+      </h1>
+      {/* CTA Buttons */}
+      <div className='flex justify-center md:justify-start items-center gap-4'>
+        <button className='hover:bg-orange-600 bg-light-orange text-white px-6 py-3'>
+          Find out more
+        </button>
+        <div className='flex items-center gap-2'>
+          <img src={playIcon} alt="" className='hover:cursor-pointer' />
+          <p className='text-gray-400'>Play Demo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 ```
 
+## 📦 Project Structure
+```
+src/
+├── Components/
+│   ├── Home/
+│   │   ├── Hero.jsx
+│   │   ├── Category.jsx
+│   │   ├── Destinations.jsx
+│   │   ├── EasyAndFast.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── Subscribe.jsx
+│   │   └── Sponsor.jsx
+│   ├── Navbar/
+│   ├── Footer/
+│   ├── About/
+│   └── NotFound/
+├── assets/
+│   └── Images/
+└── App.jsx
+```
+
+## 🎨 Design Features
+- **Color Scheme**
+  - Primary: Orange (#FF7D68)
+  - Secondary: Red (#DF6951)
+  - Text: Dark gray and white
+  
+- **Typography**
+  - Headlines: Volkhov font
+  - Body: Poppins font
+  - Large hero text
+  
+- **Visual Elements**
+  - Custom illustrations
+  - Decorative shapes
+  - Animated elements
+  - Responsive images
+
 ## 🚀 Getting Started
-1. Navigate to the challenge directory:
-   ```bash
-   cd challenge-04
-   ```
-2. Install dependencies:
+1. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the development server:
+2. Start the development server:
    ```bash
    npm run dev
    ```
 
-## 📝 Requirements Checklist
-- ✅ Responsive layout
-- ✅ Price toggle functionality
-- ✅ Feature comparison
-- ✅ Popular plan highlight
-- ✅ Clear CTAs
-- ✅ Accessible design
+## 📚 Learning Outcomes
+- Component organization
+- Responsive design implementation
+- Custom font integration
+- SVG manipulation
+- Animation techniques
+- Layout management
 
-## 🎨 Design Elements
-- **Color Scheme**
-  - Primary: Blue/Purple gradient
-  - Secondary: Neutral grays
-  - Accent: Success green
-  
-- **Typography**
-  - Price: Large, bold display
-  - Features: Clean, readable text
-  - CTAs: Bold, attention-grabbing
+## 🔍 Key Components
+- **Hero:** Engaging travel-themed header
+- **Categories:** Travel type exploration
+- **Destinations:** Featured locations
+- **Testimonials:** User reviews
+- **Subscribe:** Newsletter signup
+- **Sponsors:** Partner logos
 
-- **Spacing**
-  - Consistent padding
-  - Clear visual hierarchy
-  - Comfortable reading space
+## 🛠️ Technologies Used
+- React + Vite
+- Tailwind CSS
+- Custom Fonts (Volkhov, Poppins)
+- SVG Illustrations
+- CSS Animations
 
-## 📊 Plan Structure
-- Basic Plan
-  - Essential features
-  - Budget-friendly
-  - Individual use
-
-- Pro Plan (Popular)
-  - Advanced features
-  - Best value
-  - Small teams
-
-- Enterprise Plan
-  - All features
-  - Priority support
-  - Large organizations
+## 🎯 Future Enhancements
+- Add search functionality
+- Implement booking system
+- Add user authentication
+- Create destination details
+- Add interactive map
+- Implement dark mode
 
 ## 🎓 Additional Resources
-- [Tailwind CSS Grid](https://tailwindcss.com/docs/grid-template-columns)
-- [Pricing Page Best Practices](https://www.smashingmagazine.com/2020/11/pricing-page-design-best-practices/)
-- [Color Theory in UI](https://material.io/design/color/the-color-system.html)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [React Router Documentation](https://reactrouter.com)
+- [CSS Animation Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+- [SVG Animation Techniques](https://css-tricks.com/guide-svg-animations-smil/)
