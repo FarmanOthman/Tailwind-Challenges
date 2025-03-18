@@ -3,6 +3,7 @@ import Category from './Category';
 import Hero from './Hero';
 import Destanations from './Destanations';
 import EasyandFast from './EasyandFast';
+import Testimonials from './Testimonials';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Category />
       <Destanations />
       <EasyandFast />
+      <Testimonials />
     </div>
   )
 }
