@@ -12,6 +12,14 @@ function Testimonials() {
       .catch((error) => console.error("Error fetching testimonials:", error));
   }, []);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+    }, 5000); // Change testimonial every 5 seconds
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, [testimonials]);
+
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
   };
