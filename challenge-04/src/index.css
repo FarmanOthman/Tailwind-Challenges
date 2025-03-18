@@ -31,3 +31,11 @@ body {
 .light-red{
   background-color: #DF6951;
 }
+
+.light-purple{
+  background-color: #DFD7F9;
+}
+
+.custom-orange-1{
+  background: linear-gradient(to right, #FF946D, #FF7D68);
+}
