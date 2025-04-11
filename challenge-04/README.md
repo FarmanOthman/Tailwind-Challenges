@@ -15,7 +15,7 @@ A modern travel website featuring destinations, testimonials, and travel categor
 </p>
 
 <p align="center">
-  <img src="./public/images/hero-image.png" alt="Travel Website Screenshot" width="700">
+  <img src="./public/images/image.png" alt="Travel Website Screenshot" width="700">
 </p>
 
 ---
