@@ -1,14 +1,17 @@
+
 # Bookmark Manager Landing Page
 
-<h4 align="center">A responsive landing page for a bookmark manager built with React and Tailwind CSS.</h4>
+A responsive landing page for a bookmark manager built with React and Tailwind CSS.
 
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#getting-started">Getting Started</a> •
+  <a href="#local-development-setup">Local Development Setup</a> •
   <a href="#project-structure">Project Structure</a> •
   <a href="#design-features">Design Features</a> •
   <a href="#technologies-used">Technologies Used</a> •
   <a href="#future-enhancements">Future Enhancements</a> •
+  <a href="#learning-outcomes">Learning Outcomes</a> •
   <a href="#license">License</a>
 </p>
 
@@ -18,7 +21,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔥 **Hero Section**
   - Eye-catching layout with modern typography and CTAs
@@ -35,70 +38,74 @@
 
 ---
 
-## 💻 Getting Started
+## Getting Started
 
 To run this project locally, you'll need [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 
-```bash
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
 
 ---
 
-## 🛠️ Local Development Setup
+## Local Development Setup
 
 Follow these steps to run this project on your local machine:
 
-1. **Prerequisites**
-   - Node.js (version 16 or higher)
-   - npm (comes with Node.js)
-   - Git
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm (comes with Node.js)
+- Git
 
-2. **Clone the Repository**
-   ```bash
-   git clone https://github.com/FarmanOthman/Tailwind-Challenges/tree/main/challenge-02
-   cd challenge-02
-   ```
+### Clone the Repository
 
-3. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+```bash
+git clone https://github.com/FarmanOthman/Tailwind-Challenges.git
+cd Tailwind-Challenges/challenge-02
+```
 
-4. **Environment Setup**
-   - No additional environment variables are required for this project
+### Install Dependencies
 
-5. **Development Server**
-   ```bash
-   npm run dev
-   ```
-   This will start the development server at `http://localhost:5173`
+```bash
+npm install
+```
 
-6. **Build for Production**
-   ```bash
-   npm run build
-   ```
-   The build output will be in the `dist` folder
+### Environment Setup
 
-7. **Common Issues & Solutions**
-   - If you encounter EACCES errors during npm install, try running with sudo (Linux/Mac)
-   - For port conflicts, the Vite dev server will automatically try the next available port
-   - Make sure all required dependencies are properly installed
+No additional environment variables are required for this project.
 
-8. **Available Scripts**
-   - `npm run dev` - Start development server
-   - `npm run build` - Build for production
-   - `npm run preview` - Preview production build locally
+### Development Server
+
+```bash
+npm run dev
+```
+
+This will start the development server at:
+
+[http://localhost:5173](http://localhost:5173)
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The build output will be in the `dist` folder.
+
+### Common Issues & Solutions
+
+- If you encounter EACCES errors during `npm install`, try running with `sudo` (Linux/Mac).
+- For port conflicts, the Vite dev server will automatically try the next available port.
+- Make sure all required dependencies are properly installed.
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```bash
 src/
 ├── Components/
 │   ├── Nav.jsx                  # Navigation component
@@ -114,26 +121,26 @@ src/
 
 ---
 
-## 🎨 Design Features
+## Design Features
 
-- **Color Scheme**
-  - Primary: `#2563eb` (Tailwind Blue-600)
-  - Text: Dark blue
-  - Background: Clean white layout
+### Color Scheme
+- **Primary:** #2563eb (Tailwind Blue-600)
+- **Text:** Dark blue
+- **Background:** Clean white layout
 
-- **Typography**
-  - Bold headers for clarity
-  - Legible body content
-  - Consistent padding and spacing
+### Typography
+- Bold headers for clarity
+- Legible body content
+- Consistent padding and spacing
 
-- **Interactions**
-  - Hover/scale animations on buttons
-  - Smooth transitions for better UX
-  - Fully responsive for mobile/tablet/desktop
+### Interactions
+- Hover/scale animations on buttons
+- Smooth transitions for better UX
+- Fully responsive for mobile/tablet/desktop
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - ⚛️ React + Vite
 - 🎨 Tailwind CSS
@@ -142,7 +149,7 @@ src/
 
 ---
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 - 🌙 Dark mode support
 - 🌀 Add entry animations and transitions
@@ -152,7 +159,7 @@ src/
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 - Flexbox-based responsive layout
 - Real-world component structuring
@@ -162,11 +169,11 @@ src/
 
 ---
 
-## 🧾 License
+## License
 
 This project is licensed under the MIT License - see below for details:
 
-```
+```text
 MIT License
 
 Copyright (c) 2025
@@ -190,8 +197,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
----
-
-> Made with ❤️ using React and Tailwind CSS
-
----
+Made with ❤️ using React and Tailwind CSS
