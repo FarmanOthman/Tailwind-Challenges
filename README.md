@@ -15,23 +15,20 @@
 
 ## 🎯 Challenge Progress
 
-### Phase 1: Pure Tailwind Implementations ✅
-1. **[Simple Navigation](./challenge-01)** - Clean navigation with social media integration
-2. **[Bookmark Manager](./challenge-02)** - Modern landing page with features showcase
-3. **[Educational Platform](./challenge-03)** - Space-themed learning platform with dark mode
-4. **[Travel Website](./challenge-04)** - Comprehensive travel site with destinations
+### Phase 1: Pure Tailwind Implementations ✅  
+1. **[Simple Navigation](./challenge-01)** – Clean navigation with social media integration  
+2. **[Bookmark Manager](./challenge-02)** – Modern landing page with features showcase  
+3. **[Educational Platform](./challenge-03)** – Space-themed learning platform with dark mode  
+4. **[Travel Website](./challenge-04)** – Comprehensive travel site with destinations  
 
-### Phase 2: Advanced Animations with GSAP 🚀
-5. **[Dashboard Layout](./challenge-05)** - Professional dashboard with animated transitions
-6. **[Accordion FAQ](./challenge-06)** - Smooth accordion animations
-7. **[Testimonial Slider](./challenge-07)** - Dynamic testimonial carousel
-8. **[Product Page](./challenge-08)** - E-commerce product showcase with image gallery
+### Phase 2: Advanced Animations with GSAP 🚀 *(Coming Soon)*  
+5. **TBD – GSAP Challenge #1** – Planned advanced animation using GSAP  
+6. **TBD – GSAP Challenge #2** – Another animation-based UI/UX interaction  
 
-### Phase 3: Immersive Experiences with Three.js 🌟
-9. **Landing Page Clone** - 3D-enhanced landing page
-10. **Dark Mode Toggle** - Animated theme switching
-11. **Admin Dashboard** - Data visualization with 3D elements
-12. **Portfolio Website** - Interactive 3D portfolio showcase
+### Phase 3: Immersive Experiences with Three.js 🌟 *(Coming Soon)*  
+7. **TBD – Three.js Challenge #1** – Planned 3D interaction or visual element  
+8. **TBD – Three.js Challenge #2** – Another immersive experience using 3D graphics  
+
 
 ## 🛠️ Completed Challenges Overview
 
